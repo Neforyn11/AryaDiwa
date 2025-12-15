@@ -1,0 +1,98 @@
+:root {
+  --blue-dark: #0a2540;
+  --blue-main: #0d6efd;
+  --blue-light: #e7f1ff;
+  --text-dark: #1f2933;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-dark);
+  background: linear-gradient(180deg, #f8fbff, #ffffff);
+  line-height: 1.6;
+}
+
+header {
+  background: radial-gradient(circle at top, #123c6b, var(--blue-dark));
+  color: white;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header p {
+  max-width: 700px;
+  margin: 1rem auto 0;
+  opacity: 0.9;
+}
+
+nav {
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--blue-dark);
+  font-weight: 600;
+}
+
+section {
+  padding: 4rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: var(--blue-dark);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  margin-bottom: 1.5rem;
+}
+
+.skills span {
+  display: inline-block;
+  background: var(--blue-light);
+  color: var(--blue-main);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  margin: 0.3rem;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: var(--blue-dark);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #9ecbff;
+  text-decoration: none;
+}

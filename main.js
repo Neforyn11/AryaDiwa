@@ -1,0 +1,2 @@
+// main.js
+console.log("Website loaded successfully");
